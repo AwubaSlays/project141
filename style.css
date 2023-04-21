@@ -1,0 +1,52 @@
+
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+#creds
+{
+   background-color: rgb(12, 41, 36);
+   color:rgb(111, 124, 151);
+   line-height: 1;
+   margin-bottom: sticky;
+   display: inline-flex;
+   float: bottom;
+
+}
+canvas 
+  {
+      border:1px solid white;
+      border-radius: 1px;
+      box-shadow:  5px 5px 5px rgb(28, 12, 108);
+      margin-bottom: sticky;
+  }
+#status
+{
+    background-color: rgb(34, 60, 60);
+    text-emphasis-color: white;
+    color:white;
+}
